@@ -1,5 +1,5 @@
 {% set name = "pydlm" %}
-{% set version = "0.1.1.12" %}
+{% set version = "0.1.1.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydlm-{{ version }}.tar.gz
-  sha256: 6e9be5b1dedd37bf9287d5178d131d3593f6a4f667f2c2f9c81f5ecefa313a7f
+  sha256: 312071a2b086090203dde04a60c34f9a3f562e7578dd8ac594a076049718bb99
 
 build:
   noarch: python
